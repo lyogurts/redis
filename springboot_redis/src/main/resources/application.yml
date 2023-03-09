@@ -1,1 +1,10 @@
-
+server:
+  port: 8089
+spring:
+  application:
+    name: springboot_redis
+  redis:
+    host: 42.193.98.249
+    port: 6379
+    database: 0
+    password: redis
