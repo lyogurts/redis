@@ -16,4 +16,8 @@ public class TestService {
         System.out.println("-----------------------------");
         userService.findAll().forEach(user -> System.out.println("user = " + user));
     }
+    @Test
+    public void testDelete(){
+        userService.delete("3");
+    }
 }
